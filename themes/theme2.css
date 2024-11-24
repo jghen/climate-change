@@ -1,12 +1,15 @@
+/* === Eco Serenity Theme === */
 :root {
-  --background-color: #f7f3e9; /* Soft cream */
-  --text-color: #2e2e2e; /* Dark charcoal */
-  --primary-color: #0a3d62; /* Deep ocean blue */
-  --primary-color-light: #1e5a7d; /* Lighter ocean blue */
-  --secondary-color: #f0ebe1; /* Light beige */
-  --accent-color: #e67e22; /* Warm orange */
-  --header-footer-color: #2c503e; /* Dark slate */
-  --highlight-color: #d35400; /* Terracotta */
-  --blockquote-bg: #eaf2f8; /* Light blue */
-  --blockquote-border: #2980b9; /* Soft blue */
+  --background-color: #fffefb; 
+  --secondary-color: #fffcf5; /* card */
+  --text-color: #2b2b2b; 
+  --primary-color: #0b3564; /* Header and h2 color petrol ish */
+  --primary-color-light: #1c4779; /* Header and h3 color petrol light */
+  --highlight-color: #35523c; /* h4 */
+  
+  --accent-color: #eec8a8; /* Warm orange for header footer text */
+  --header-footer-color: #34613f; /* Deep green for header/footer */
+  
+  --blockquote-bg: #f3f8f0; /* Light greenish background for blockquotes */
+  --blockquote-border: #4a6b52; /* Soft green border */
 }
