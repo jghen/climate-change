@@ -1,0 +1,169 @@
+/* Basic resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Earthy Theme Reset */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+/* Container for centering content */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header and Footer */
+header,
+footer {
+  background: var(--header-footer-color);
+  color: var(--text-color);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1,
+header p,
+footer p {
+  color: var(--accent-color);
+}
+li {margin-bottom: .25rem;}
+
+p {
+  margin-bottom: 1rem;
+}
+
+blockquote p {
+  margin-bottom: 0; /* Remove margin for paragraphs inside blockquotes */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Main content */
+main {
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  animation: slideUp 1s ease-out;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: var(--header-footer-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Sections styling */
+.story {
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  animation: fadeInUp 1s ease-out;
+}
+
+blockquote {
+  background-color: var(--blockquote-bg);
+  border-left: 5px solid var(--blockquote-border);
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-style: italic;
+  color: var(--text-color);
+}
+
+/* List styles */
+ul, ol {
+  margin-bottom: 1rem;
+  list-style-type: none;
+  margin-left: 1rem;
+}
+
+/* Style for h4 inside lists */
+h4 {
+  font-weight: bold;
+  color: var(--highlight-color); /* Warm terracotta color */
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 3rem;
+  }
+
+  header p {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+}

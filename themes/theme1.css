@@ -1,0 +1,15 @@
+/* === Eco Serenity Theme === */
+:root {
+  --background-color: #fffaef; 
+  --secondary-color: #fffbef; /* card */
+  --text-color: #2b2b2b; 
+  --primary-color: #0b3564; /* Header and h2 color petrol ish */
+  --primary-color-light: #1c4779; /* Header and h3 color petrol light */
+  --highlight-color: #35523c; /* h4 */
+  
+  --accent-color: #e67e22; /* Warm orange for header footer text */
+  --header-footer-color: #35523c; /* Deep green for header/footer */
+  
+  --blockquote-bg: #f3f8f0; /* Light greenish background for blockquotes */
+  --blockquote-border: #4a6b52; /* Soft green border */
+}

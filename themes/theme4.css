@@ -1,0 +1,12 @@
+:root {
+  --background-color: #f7f3e9; /* Soft cream */
+  --text-color: #2e2e2e; /* Dark charcoal */
+  --primary-color: #0a3d62; /* Deep ocean blue for h1 */
+  --primary-color-light: #1e5a7d; /* Lighter ocean blue for h3 */
+  --secondary-color: #fcf7f1; /* Light beige for sections */
+  --accent-color: #e67e22; /* Warm orange */
+  --header-footer-color: #2c6e49; /* Deep green for header/footer */
+  --highlight-color: #a3b18a; /* Soft green for highlights */
+  --blockquote-bg: #d4e9d7; /* Light greenish background for blockquotes */
+  --blockquote-border: #6b8e23; /* Olive green border */
+}

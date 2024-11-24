@@ -1,0 +1,12 @@
+:root {
+  --background-color: #f7f3e9; /* Soft cream */
+  --text-color: #2e2e2e; /* Dark charcoal */
+  --primary-color: #0a3d62; /* Deep ocean blue */
+  --primary-color-light: #1e5a7d; /* Lighter ocean blue */
+  --secondary-color: #f0ebe1; /* Light beige */
+  --accent-color: #e67e22; /* Warm orange */
+  --header-footer-color: #2c503e; /* Dark slate */
+  --highlight-color: #d35400; /* Terracotta */
+  --blockquote-bg: #eaf2f8; /* Light blue */
+  --blockquote-border: #2980b9; /* Soft blue */
+}
